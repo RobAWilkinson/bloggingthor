@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'capybara'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
 # Use sqlite3 as the database for Active Record
@@ -30,4 +29,5 @@ gem 'spring',        group: :development
 group :development, :test do
 	  gem 'rspec-rails', '~> 3.0.0'
 		gem 'capybara-screenshot' 
+		gem 'seed-fu', '~> 2.3'
 end
