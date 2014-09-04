@@ -1,6 +1,4 @@
 language: ruby
 rvm:
   - "2.1.2"
-script:
-  -rake db:seed RAILS_ENV=test
 
